@@ -1,4 +1,3 @@
-//import react into the bundle
 import React from "react";
 import ReactDOM from "react-dom";
 
@@ -13,4 +12,4 @@ import Card from "./component/card.jsx";
 import Footer from "./component/footer.jsx";
 
 //render your react application
-ReactDOM.render(<Home />, <Navbar />, <Jumbotron />, <Card />, <Footer />, document.querySelector("#app"));
+ReactDOM.render(<> <Navbar/><Jumbotron/><Card/><Footer/> </>, document.querySelector("#app"));
