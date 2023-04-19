@@ -2,9 +2,16 @@ import React from "react";
 
 function Footer(){
     return (
-        <div className="container">
+        <div className="container-fluid" style={{
+            backgroundColor: "rgb(76, 79, 90)",
+            position: "fixed",
+            left: 0,
+            right: 0,
+            bottom: 0,
+            width: "100%",
+        }}>
             <footer className="py-3 my-4">
-                <p className="text-center text-muted">Copyright © Your Website 2018</p>
+                <p className="text-center" style={{ color: "white"}}><strong>Copyright © Your Website 2018</strong></p>
             </footer>
         </div>
     );
